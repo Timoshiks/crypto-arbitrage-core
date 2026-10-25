@@ -1,0 +1,31 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Переменные окружения и секреты
+.env
+*.env
+!.env.example
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Базы данных и миграции
+*.sqlite3
+*.db
+
+# Логи
+*.log
+
+# Конфиги редакторов и IDE
+.vscode/
+.idea/
+
+# Операционная система
+Thumbs.db
+Desktop.ini
+.DS_Store
